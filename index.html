@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b98268a861.js" crossorigin="anonymous"></script> <!--Esta linea nos permite traer iconos de la pagina fontawesome-->
+    <script src="js/app.js"></script>
+    <title>Biblioteca</title> <!--Esta linea es para modificar la palabra de la pestaña de Google-->
+    <link rel="stylesheet" href="estilos/estilo.css"> <!--Esta linea es para que nos tome los estilos de la carpeta estilos-->
+</head>
+<body>
+    <header id="header">
+        <h2 class="logo">Biblioteca</h2>
+
+        <nav class="navegacion">
+            <a href="#">Inicio</a>
+            <a href="#">Informacion</a>
+            <a href="#">Contacto</a>
+
+            <button type="submit" class="btn-iniciar-sesion">Iniciar Sesión</button>
+        </nav>
+    </header>
+
+    <div class="fondo">
+        <span class="icono-cerrar"><i class="fa-solid fa-xmark"></i></span> <!--Icono de cerrar-->
+        <div class="contenedor-form-login">
+            <h2>Iniciar Sesión</h2>
+            <form action="#">
+                
+                <div class="contenedor-input">
+                    <span class="icono"><i class="fa-solid fa-envelope"></i></span> <!--Icono de mail-->
+                    <input type="email" required>
+                    <label for="#">Email</label>
+                </div>
+
+                <div class="contenedor-input">
+                    <span class="icono"><i class="fa-solid fa-lock"></i></span> <!--Icono de candado-->
+                    <input type="password" required>
+                    <label for="#">Contraseña</label>
+                </div>
+
+                <div class="recordar">
+                    <label for="#"><input type="checkbox">Recordar Datos</label>
+                    <a href="#">Olvidé mi contraseña</a>
+                </div>
+
+                <button type="submit" class="btn">Iniciar Sesión</button>
+
+                <div class="registrar">
+                    <p>¿No tienes una cuenta? <a href="#" class="registrar-link">Regístrate</a></p>
+                </div>
+
+            </form>
+        </div>
+        
+        <div class="contenedor-form-registro">
+            <h2>Regístrate</h2>
+            <form action="#">
+                
+                <div class="contenedor-input">
+                    <span class="icono"><i class="fa-solid fa-user"></i></span> <!--Icono de usuario-->
+                    <input type="text" required>
+                    <label for="#">Nombre de usuario</label>
+                </div>
+
+                <div class="contenedor-input">
+                    <span class="icono"><i class="fa-solid fa-envelope"></i></span> <!--Icono de mail-->
+                    <input type="email" required>
+                    <label for="#">Email</label>
+                </div>
+
+                <div class="contenedor-input">
+                    <span class="icono"><i class="fa-solid fa-lock"></i></span> <!--Icono de candado-->
+                    <input type="password" required>
+                    <label for="#">Contraseña</label>
+                </div>
+
+                <div class="recordar">
+                    <label for="#"><input type="checkbox"> Acepto los términos y condiciones</label>
+                </div>
+
+                <button type="submit" class="btn-registrar">Regístrate</button>
+
+                <div class="registrar">
+                    <p>¿Ya tienes una cuenta? <a href="#" class="login-link">Inicia Sesión</a></p>
+        
+        </div>
+    </div>
+    <script src="../static/js/app.js"></script>
+</body>
+</html>
